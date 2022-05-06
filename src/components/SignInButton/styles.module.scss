@@ -1,4 +1,4 @@
-.SignInButton {
+.signInButton {
     height: 3rem;
     border-radius: 3rem;
     background: var(--gray-850);
@@ -19,6 +19,10 @@
 
     svg:first-child {
         margin-right: 1rem;
+    }
+
+    svg.closeIcon {
+        margin-left: 1rem;
     }
 
     transition: filter 0.2s;
